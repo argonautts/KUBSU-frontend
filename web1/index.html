@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Kozin web1</title>
+</head>
+
+<body>
+<h1 id="task1">Задание 1</h1>
+<ol>
+    <li><a href="http://example.com">ссылка 1</a></li>
+    <li><a href="https://example.com">ссылка 2</a></li>
+    <li><a href="ftp://public.ftp-servers.example.com/mydirectory/file.zip">ссылка 3</a></li>
+    <li><a href="ftp://user001:secretpassword@private.ftp-servers.example.com/mydirectory/file.zip">ссылка 4</a></li>
+    <li><a href="https://kozinalexandr.github.io/Yolo/#back" target="_blank">ссылка 5</a></li> <!--ссылка на фрагмент Back, так же возвращает обратно на index-->
+    <li><a href="#“dolor”">ссылка 6</a></li>
+    <li><a href="https://www.example.com?key=Heroes_of_Might__Magic&version=delux" target="_blank">ссылка 7</a></li>
+    <li><p>Навигация</p>
+        <nav>
+            <ul>
+                <li><a href="#task1" title="task">Задание 1</a></li>
+                <li><a href="#forma" title="forma">Форма</a></li>
+            </ul>
+        </nav>
+    </li>
+    <li><a>ссылка 9</a></li>
+    <li><a href="">ссылка 10</a></li>
+    <li><a href="http://example.com" rel = "nofollow">ссылка 11</a></li>
+    <li><a href="http://example.com" rel = "noindex">ссылка 12</a></li>
+    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cumque error ex nostrum optio placeat repellendus, voluptatem. Accusantium <a href="http://commodi.com">commodi</a> consequuntur cupiditate doloremque facilis inventore maiores, nemo nihil, repellat reprehenderit sunt.</p></li>
+    <li><a href="http://example.com" target="_blank"><img src="img/image.jpg" width="50" height="50" alt="Example"></a></li>
+    <li>
+        <img src = "img/image.jpg" usemap = "#figuri" alt = "There are 2 selections of the picture area">
+        <map name = "figuri">
+            <area shape = "rect" coords = "0,0,110,80" href = "http://yandex.ru" alt = "Квадрат">
+            <area shape = "circle" coords = "150,110,50" href = "http://google.com" alt = "Круг">
+        </map>
+    </li>
+    <li><a href="lap.html">ссылка 16</a></li>
+    <li><a href="about/about.html">ссылка 17</a></li>
+    <li><a href="../index.html">ссылка 18</a></li>
+    <li><a href="../../index.html">ссылка 19</a></li>
+    <li><a href="/">ссылка 20</a></li>
+    <li><a href="/about">ссылка 21</a></li>
+</ol>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam commodi, <a id=“dolor”>consequuntur debitis dolor</a> est et facere fugiat fugit laborum laudantium necessitatibus nesciunt, quas quis rem similique sint tenetur voluptates.</p>
+
+<h1 id="forma">Форма</h1>
+<form action="/" method="POST">
+
+    <label>
+        Имя<br>
+        <input name="field-name-1" value="Александр">
+    </label><br>
+
+    <label>
+        email:<br>
+        <input name="field-email" value="test@example.com" type="email">
+    </label><br>
+
+    <label>
+        Дата рождения<br>
+        <input name="field-date" value="2021-09-08" type="date">
+    </label><br>
+
+    Пол:<br>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+        Мужской</label><br>
+    <label><input type="radio" name="radio-group-1" value="Значение2">
+        Женский</label><br>
+
+    Количество конечностей:<br>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+        1</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение2">
+        2</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение3">
+        3</label>
+    <label><input type="radio" name="radio-group-1" value="Значение4">
+        4</label><br>
+
+    <label>
+        Сверхспособности:
+        <br>
+        <select name="field-name-4[]" multiple="multiple">
+            <option value="Значение1" selected="selected">Бессмертие</option>
+            <option value="Значение2">Левитация</option>
+            <option value="Значение3">Прохождение сквозь стены</option>
+        </select>
+    </label><br>
+
+    <label>
+        Биография:
+        <br>
+        <textarea name="field-name-2" style="margin: 0px; height: 35px; width: 187px;">Напишите что-то о себе</textarea>
+    </label><br>
+
+    <label><input type="checkbox" checked="checked" name="check-1">
+        с контрактом ознакомлен (а)</label><br>
+
+    <input type="submit" value="Отправить">
+</form>
+<a href="https://gifer.com/ru/Z2kv" target="_blank"><img src="img/Z2kv.gif" alt="rofl"></a>
+</body>
+</html>
